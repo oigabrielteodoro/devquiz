@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <Container>
       <Title>
-        Olá, <UserName>Gabriel</UserName>
+        Olá, <UserName>Diego</UserName>
       </Title>
 
       <Avatar source={avatarImg} />

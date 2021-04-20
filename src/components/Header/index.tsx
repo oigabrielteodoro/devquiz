@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Container, Title, UserName } from './styles';
+import avatarImg from '~/assets/Diego.png';
+
+import { Container, Title, UserName, Avatar } from './styles';
 
 const Header = () => {
   return (
@@ -8,6 +10,8 @@ const Header = () => {
       <Title>
         Olá, <UserName>Gabriel</UserName>
       </Title>
+
+      <Avatar source={avatarImg} />
     </Container>
   );
 };

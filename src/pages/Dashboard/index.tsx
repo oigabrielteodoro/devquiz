@@ -1,10 +1,15 @@
 import React from 'react';
-import { View } from 'react-native';
+
+import Header from '~/components/Header';
 
 // import { Container } from './styles';
 
 const Dashboard = () => {
-  return <View />;
-}
+  return (
+    <>
+      <Header />
+    </>
+  );
+};
 
 export default Dashboard;

@@ -10,6 +10,6 @@ const AppRouter = () => {
       <StackRouter />
     </NavigationContainer>
   );
-}
+};
 
 export default AppRouter;
